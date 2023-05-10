@@ -6,7 +6,11 @@ module.exports = {
     './src/index.html'
   ],
   theme: {
-    extend: {}
+    fontFamily: {
+      'serif': ['Lora'],
+    }
   },
-  plugins: []
+  plugins: [
+    require('tailwind-scrollbar'),
+  ]
 };

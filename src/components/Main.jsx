@@ -28,23 +28,26 @@ export default function Main() {
   };
 
   return (
-    <div className="flex-col text-center p-5 my-6">
+    <div className="flex-col p-5 my-6 mx-auto text-center font-serif">
       <form>
         <label htmlFor="text-area" className="text-2xl font-medium">
-          Texto a ser adaptado:
+          Text to be adapted:
           <div>
             <textarea
               id="text-area"
               value={ text }
               onChange={ handleChange }
-              className="text-base w-2/3 h-80 my-8 p-2"
+              className="text-base w-2/3 h-80 my-8 p-3 shadow-xl rounded-lg bg-gray-50 scroll-smooth
+              scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 hover:cursor-text"
             />
           </div>
         </label>
       </form>
-      <div>
-        <p className="text-2xl font-medium mb-10">Texto transformado:</p>
-        <div className="text-xl">
+      <div className="w-3/4 text-justify mx-auto">
+        <p className="text-2xl font-medium mb-10 text-center">
+          Adapted text:
+        </p>
+        <div className="text-xl leading-8 subpixel-antialiased">
           { transformText(text) }
         </div>
       </div>
