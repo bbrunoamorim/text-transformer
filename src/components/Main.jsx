@@ -43,7 +43,7 @@ export default function Main() {
   };
 
   return (
-    <div className="flex-col p-5 mb-6 mx-auto text-center font-serif">
+    <div className="flex-col p-5 mx-auto text-center font-serif">
       <h1 className="text-4xl mb-12 font-semibold text-gray-700">
         Bionic Reading
       </h1>
