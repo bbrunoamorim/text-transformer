@@ -1,8 +1,8 @@
 {
-  "name": "starter-vite-react",
+  "name": "bionic-reading-text-transformer",
   "private": true,
   "version": "1.0.0",
-  "description": "Opinionated Vite starter template with ESLint, Prettier, Stylelint and more.",
+  "description": "A simple application to transform inputed text into a Bionic Reading adaptation.",
   "repository": {
     "type": "git",
     "url": "https://github.com/fabgrel10/vite-react-starter"

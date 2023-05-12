@@ -38,7 +38,6 @@ export default function Main() {
     });
   };
 
-
   const handleChange = ({ target }) => {
     setText(target.value);
   };
